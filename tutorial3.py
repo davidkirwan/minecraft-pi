@@ -30,17 +30,17 @@ while True:
 	time.sleep(0.0.5)
 
     for x in range(0, 10):
-        mc.setBlock(-5, x, 0, block.STONE)
+        mc.setBlock(-5, x, 0, block.AIR)
 	time.sleep(0.0.5)
 
     for x in range(-5, 5):
-        mc.setBlock(x, 10, 0, block.STONE)
+        mc.setBlock(x, 10, 0, block.AIR)
 	time.sleep(0.0.5)
 
     for x in range(10, 0, -1):
-        mc.setBlock(5, x, 0, block.STONE)
+        mc.setBlock(5, x, 0, block.AIR)
 	time.sleep(0.0.5)
 
     for x in range(5, -5, -1):
-        mc.setBlock(x, 0, 0, block.STONE)
+        mc.setBlock(x, 0, 0, block.AIR)
 	time.sleep(0.0.5)
